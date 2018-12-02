@@ -1,0 +1,91 @@
+## Basic Configuration
+
+baseurl = "https://MyBlog/"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Changyang Zeng"
+title = "Changyang Zeng"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Changyang Zeng"
+intro = "Senior student majoring in geotechnical engineering"
+description = "Now free coding. <br/> \"Rise above. Focus on science.\""
+authorimage = "author.jpg"
+dateformat = "Dec 2, 2018"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "Heceo"
+instagram = "<changyangzeng>"
+xing = "<username>"
+linkedin = "畅扬-曾-169a47133"
+twitter = "Fowles7440163"
+facebook = "GroundControltoMajorZeng"
+google = "<username>"
+stackoverflow = "<username>"
+lastfm = "<username>"
+goodreads = "<username>"
+gitlab = "<username>"
+bitbucket = "<username>"
+fivehundredpx = "<username>"
+flickr = "<username>"
+foursquare = "<username>"
+hackernews = "<username>"
+kickstarter = "<username>"
+patreon = "<username>"
+pintrest = "<username>"
+steam = "<username>"
+reddit = "<username>"
+snapchat = "<username>"
+youtube = "<username>"
+keybase = "<username>"
+twitch = "<username>"
+soundcloud = "<username>"
+tumblr = "<username>"
+skype = "<username>"
+telegram = "<username>"
+whatsapp = "<username>"
+email = "gullofash@gmail.com"
+
+## Extras
+[params.extra]
+copyright = "© 2018. Changyang Zeng. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = true
+highlightjs = true
+socialmarkup = true
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
+[[menu.main]]
+    name = "coderag"
+    identifier = "coderag"
+    weight = 300
+    url = "/coderag/"
