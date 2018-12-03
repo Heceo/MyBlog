@@ -1,10 +1,19 @@
+---
+title: "How was my static blog born"
+date: 2018-12-03T13:34:04+08:00
+draft: false
+showpagemeta : true 
+showcomments : true
+---
+
+
 # 1.To know how it works
 
 ## 1.Why Hugo
 
-[Sorts of blogs](https://segmentfault.com/a/1190000011661576)
+You should know there are [sorts of blogs](https://segmentfault.com/a/1190000011661576).
 
-[Jeklly and Hugo](https://linux.cn/article-8633-1.html)
+[Jeklly and Hugo](https://linux.cn/article-8633-1.html) are similar and different.
 
 ## 2.Why Netlify
 
@@ -35,23 +44,32 @@ coupon YMYH > 5.99$ per year
 [Official Documentation](https://gohugo.io/getting-started/installing/)
 
 #### Debian and Ubuntu
-```sudo apt-get install hugo #By this way, the version isn't the latest```
-So you can download the package from [Hugo release](https://github.com/gohugoio/hugo/releases), and install by 
-```sudo dpkg -i hugo_0.52_Linux-64bit.deb```
+
+```
+sudo apt-get install hugo
+```
+Though by this way, the version isn't the latest. So you can download the package from [Hugo release](https://github.com/gohugoio/hugo/releases), and install by 
+```
+sudo dpkg -i hugo_0.52_Linux-64bit.deb
+```
 
 To check, 
 
-```hugo version```
+```
+hugo version
+```
 
 ### 2.Generate local site
 
 By
 
-```hugo new site yoursite```
+```
+hugo new site yoursite
+```
 
 Hugo will generate the catalog yoursite, in which you will see following :
 
-```en:us
+```
 archetypes/
 content/
 layouts/
@@ -85,8 +103,11 @@ Firstly, you need to override the config.toml, simply you can just use the autho
 ```
 hugo server -t hugo-goa --buildDrafts --watch
 ```
-
-You need to open, say for me, http://localhost:1313 in the browser.
+or
+```
+hugo server -w -v
+```
+You need to open, say for my theme, http://localhost:1313 in the browser.
 
 
 
