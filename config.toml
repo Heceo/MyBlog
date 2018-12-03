@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "https://MyBlog/"
+baseurl = "https://github.com/Heceo/MyBlog"
 builddrafts = false
 canonifyurls = false
 languageCode = "en-US"
