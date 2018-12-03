@@ -2,7 +2,7 @@
 
 baseurl = "https://gullofash.com"
 builddrafts = false
-canonifyurls = false
+canonifyurls = true
 languageCode = "en-US"
 
 contentdir = "content"
