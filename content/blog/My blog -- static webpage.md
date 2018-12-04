@@ -1,6 +1,8 @@
 ---
-title: "How was my static blog born"
-date: 2018-12-03T13:34:04+08:00
+title: "9 Hours or Less to Get Your Static Blog Done"
+#date: 2000-12-03
+categories : ["tutorial"]
+tags : ["static web"]
 draft: false
 showpagemeta : true 
 showcomments : true
@@ -21,7 +23,7 @@ the workflow of Netlify
 
 ![](./netlify_0.png)
 
-The advantage of Netlify is that it saves you from uploading your static codes to the server, it automatically deploys the updates on the GitHub. Under some circumstances it is very useful.
+The advantage of Netlify is that it saves you from uploading your codes to the server, it automatically deploys the updates on the GitHub. Under some circumstances it is very useful.
 
 
 
@@ -152,20 +154,9 @@ Or you can also upload a `netlify.toml` file:
 
 ### 3.You may need to manage your Domain
 
-[Official Doc](https://www.netlify.com/docs/dns/)
+This is [Official Doc](https://www.netlify.com/docs/dns/)
 
-When you deploy your website codes, Netlify automatically assigns you a subdomain of itself, like "xxx.netlify.com". You may also use your own domain. You can change your DNS records in where you bought your domain, or other ways. To pay attention, Netlify DNS supports the following types of records:
-
-- **A**: Address record, which is used to map host names to their IPv4 address.
-- **AAAA**: IPv6 Address record, which is used to map host names to their IPv6 address.
-- **ALIAS**: A pseudo-record that works like a CNAME but can be safely used at the Zone Apex because it always resolves to A (or AAAA) record(s).
-- **CAA**: Certificate Authority (CA) Authorization, which is used to specify which CAs are allowed to create certificates for a domain.
-- **CNAME**: Canonical name record, which is used to specify alias names.
-- **MX**: Mail exchange record, which is used in routing requests to mail servers.
-- **NS**: Name server record, which delegates a DNS zone to an authoritative server.
-- **SPF**: Sender Policy Framework record, a deprecated record type formerly used in e-mail validation systems (use a TXT record instead).
-- **SRV**: Service locator record, which is used by some voice over IP, instant messaging protocols, and other applications.
-- **TXT**: Text record, which can contain arbitrary text and can also be used to define machine-readable data, such as security or abuse prevention information.
+When you deploy your website codes, Netlify automatically assigns you a subdomain of itself, like "xxx.netlify.com". You may also use your own domain. You can change your DNS records in where you bought your domain, or other ways. To pay attention, Netlify DNS supports the following types of records: A, AAAA, ALIAS, CAA, CNAME, MX, NS, SPF, SRV, TXT.
 
 Or more conveniently, you can add domains to Netlify DNS that you own through external domain registrars. The final step to making your DNS records live is to update your domain registrar with the nameservers given by Netlify. 
 
@@ -173,9 +164,9 @@ Or more conveniently, you can add domains to Netlify DNS that you own through ex
 
 # 3.Final
 
-From searching on the Internet in the beginning to publish the site, it took me about 9 hours, not something very difficult. My last error was the version of Hugo, after fixing that, deploying was naturally done, which made me so happy, since I had been stuck in there anxiously not knowing what to do. 
+From searching on the Internet in the beginning to publish the site successfully, it took me 9 hours. If you understands how it works, it can take very soon, maybe just an hour or even less, though your own domain may take one or two days to be updated. My last error was the version of Hugo, after fixing that, deploying was naturally done, which made me so happy. So it is completely not a difficult thing to do. Now, get your blog published!
 
-References:
+# 4.References
 
 [怎么选择和快速搭建个人博客](https://segmentfault.com/a/1190000011661576)
 
