@@ -2,8 +2,13 @@
 title: "Debt Default Forecast"
 #date: "2018-12-04"
 categories : ["project"]
+comments: true
 tags : ["machine learning"]
 draft: false
+showpagemeta : true 
+showcomments : true
+slug: ""
+description: "SVM Random Forest Stacking"
 ---
 
 # 1.Introduction

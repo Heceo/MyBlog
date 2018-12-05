@@ -10,7 +10,7 @@ layoutdir = "layouts"
 publishdir = "public"
 
 author = "Changyang Zeng"
-title = "Changyang Zeng"
+title = "Changyang Zeng-曾畅扬的博客"
 
 theme = "hugo-goa"
 

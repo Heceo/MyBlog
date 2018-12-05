@@ -4,8 +4,11 @@ title: "9 Hours or Less to Get Your Static Blog Done"
 categories : ["tutorial"]
 tags : ["static web"]
 draft: false
+comments: true
 showpagemeta : true 
 showcomments : true
+slug: ""
+description: "Hugo GitHub Netlify"
 ---
 
 
