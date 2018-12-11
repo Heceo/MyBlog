@@ -23,7 +23,7 @@ enableRobotsTXT = true
 [params]
 author = "Changyang Zeng"
 intro = "Senior student majoring in geotechnical engineering"
-description = "Now free coding. <br/> \"Rise above. Focus on science.\""
+description = "<br/> \"Rise above. Focus on science.\""
 authorimage = "author.jpg"
 dateformat = "Dec 2, 2018"
 

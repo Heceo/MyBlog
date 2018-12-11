@@ -8,7 +8,7 @@ draft: false
 showpagemeta : true 
 showcomments : true
 slug: ""
-description: "SVM Random Forest Stacking"
+description: "SVM, Random Forest, Stacking"
 ---
 
 # 1.Introduction

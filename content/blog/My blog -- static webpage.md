@@ -1,5 +1,5 @@
 ---
-title: "9 Hours or Less to Get Your Static Blog Done"
+title: "Few Hours to Get Your Static Blog Done"
 #date: 2000-12-03
 categories : ["tutorial"]
 tags : ["static web"]
@@ -8,7 +8,7 @@ comments: true
 showpagemeta : true 
 showcomments : true
 slug: ""
-description: "Hugo GitHub Netlify"
+description: "Hugo, GitHub, Netlify"
 ---
 
 
