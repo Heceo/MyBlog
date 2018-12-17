@@ -1,5 +1,5 @@
 ---
-title: "Problems Met When Using Go"
+title: "Go Module: Go's new package management tool"
 #date: 2018-12-17T16:48:22+08:00
 categories : ["dots"]
 tags : ["Go"]
@@ -11,9 +11,9 @@ slug: ""
 description: ""
 ---
 
-It was extremely annoying when you install Go and set up the environment in mainland of China due to the firewall.
+It was extremely annoying when you were installing Go and setting up the environment in mainland of China due to the firewall.
 
-After I installed most of Go extensions in the VSCode, there were two ones left which I couldn't deal with no matter what methods I used. I even didn't know if it's because of the firewall or the problem of Golang itself. So I tried with glide, but it didn't work. "glide up" or "glide install" just left blank in the terminal even if I set proxy for the terminal. Too strange wasn't it? And VSCode neither corresponded nothing after I changed its  proxy. Just as I was forlorn, I found a new tool by Golang -- Go Module.
+After I installed most of Go extensions in the VSCode, there were two ones left which I couldn't deal with no matter what methods I used. I even didn't know if it's because of the firewall or the problem of Golang itself. So I tried with glide, but it didn't work. Command like "glide up" or "glide install" just left me blank in the terminal even if I set proxy for the terminal. Too strange wasn't it? And VSCode neither corresponded nothing after I changed its  proxy. Just as I was forlorn, I found a new tool by Golang -- Go Module.
 
 First, enter your new project outside $GOPATH, and if your Go's version is 1.11:
 
