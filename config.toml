@@ -23,7 +23,7 @@ enableRobotsTXT = true
 [params]
 author = "Changyang Zeng"
 intro = "Senior student majoring in geotechnical engineering"
-description = "<br/> \"Rise above. Focus on science.\""
+description = "Free coding.<br/> \"Rise above. Focus on science.\""
 authorimage = "author.jpg"
 dateformat = "Dec 2, 2018"
 
@@ -62,7 +62,7 @@ youtube = "<username>"
 #soundcloud = "<username>"
 tumblr = "<username>"
 skype = "<username>"
-telegram = "<username>"
+telegram = "Heceo"
 whatsapp = "<username>"
 email = "gullofash@gmail.com"
 
