@@ -24,7 +24,7 @@ You should know there are [sorts of blogs](https://segmentfault.com/a/1190000011
 
 the workflow of Netlify
 
-![](./netlify_0.png)
+{{% img src="/img/netlify_0.png" alt="Plandit Pulvinar" class="right half" %}}
 
 The advantage of Netlify is that it saves you from uploading your codes to the server, it automatically deploys the updates on the GitHub. Under some circumstances it is very useful.
 

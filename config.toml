@@ -9,8 +9,8 @@ contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
 
-author = "Changyang Zeng"
-title = "Changyang Zeng-曾畅扬的博客"
+author = "Changyang Tseng"
+title = "Changyang Tseng-曾畅扬的博客"
 
 theme = "hugo-goa"
 
@@ -24,7 +24,7 @@ enableRobotsTXT = true
 author = "Changyang Zeng"
 intro = "Senior student majoring in geotechnical engineering"
 description = "Free coding.<br/> \"Rise above. Focus on science.\""
-authorimage = "author.jpg"
+authorimage = "me.jpg"
 dateformat = "Dec 2, 2018"
 
 ## Site Meta Settings
@@ -68,7 +68,7 @@ email = "gullofash@gmail.com"
 
 ## Extras
 [params.extra]
-copyright = "© 2018. Changyang Zeng. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+copyright = "© 2018. Ch'angyang Tseng. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
 poweredby = true
 highlightjs = true
 socialmarkup = true

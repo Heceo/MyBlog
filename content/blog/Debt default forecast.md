@@ -13,7 +13,7 @@ description: "SVM, Random Forest, Stacking"
 
 # 1.Introduction
 
-我们现在有某银行的一小部分客户账户的脱敏数据,有的客户有信贷违约的情况发生,我们需要根据数据里面提供的一些特征(id,年龄,教育程度,工龄,地址,收入,负债率,信用卡负债,其他负债等)来建立一个模型来预测某个客户是否有贷款违约的风险,其数据样式如下:
+We now have desensitization data for a small number of customer accounts of a bank. Some customers have credit defaults. We need to provide some characteristics based on the data (id, age, education level, service age, address, income, liabilities). Rate, credit card liabilities, other liabilities, etc.) to establish a model to predict whether a customer has a risk of loan default, the data style is as follows:
 
 |      | id     | age  | education | lengthofservice | address | income | debt | creditcarddebt | otherdebt | default |
 | ---- | ------ | ---- | --------- | --------------- | ------- | ------ | ---- | -------------- | --------- | ------- |
@@ -25,14 +25,11 @@ description: "SVM, Random Forest, Stacking"
 | 5    | 477639 | 41   | 2         | 5               | 5       | 25     | 10.2 | 0.39           | 2.16      | 0       |
 | 6    | 361223 | 39   | 1         | 20              | 9       | 67     | 30.6 | 3.83           | 16.67     | 0       |
 
-要求:
-1. 对数据进行清洗和探索。
-
-2. 选择合适的模型算法进行建模。
-
-3. 选择合适的评估指标进行模型的评估和调参。
-
-4. 保存训练好的模型。
+REquirements:
+1. Clean and explore the data.
+2. Select the appropriate model algorithm to model.
+3. Select appropriate evaluation indicators for model evaluation and adjustment.
+4. Save the trained model
 
 # 2.Codes
 
@@ -172,8 +169,8 @@ Accuracy:0.73338(+/-0.00670)[StackingClassifier]
 
 ## Reference:
 
-胡逸飞
+Yifei Hu (胡逸飞)
 
-缪雯
+Wen Miao (缪雯)
 
-曾畅扬
+Changyang Zeng (曾畅扬)
